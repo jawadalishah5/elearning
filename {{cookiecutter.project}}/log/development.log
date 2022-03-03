@@ -1,0 +1,1260 @@
+Started GET "/" for ::1 at 2022-03-02 12:12:27 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.9ms | Allocations: 676)
+Completed 200 OK in 18ms (Views: 12.1ms | Allocations: 3834)
+
+
+Started GET "/" for ::1 at 2022-03-02 12:14:17 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.8ms | Allocations: 370)
+Completed 200 OK in 3ms (Views: 2.0ms | Allocations: 1103)
+
+
+Started GET "/" for ::1 at 2022-03-02 12:15:04 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 1.0ms | Allocations: 370)
+Completed 200 OK in 4ms (Views: 2.9ms | Allocations: 1100)
+
+
+Started GET "/" for ::1 at 2022-03-02 12:23:54 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.1ms | Allocations: 23)
+Completed 200 OK in 1ms (Views: 0.5ms | Allocations: 203)
+
+
+Started GET "/" for ::1 at 2022-03-02 12:28:31 +0500
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/Jawad/.rbenv/versions/2.7.2/lib/ruby/gems/2.7.0/gems/railties-7.0.2.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.9ms | Allocations: 369)
+Completed 200 OK in 3ms (Views: 2.1ms | Allocations: 1096)
+
+
+Started GET "/courses" for ::1 at 2022-03-02 12:28:36 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/courses"):
+  
+Started GET "/course" for ::1 at 2022-03-02 12:28:41 +0500
+  
+ActionController::RoutingError (No route matches [GET] "/course"):
+  
+Started GET "/courses/index" for ::1 at 2022-03-02 12:28:45 +0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 0ms (Allocations: 426)
+
+
+  
+JSON::ParserError (783: unexpected token at '../../config/courses.json'):
+  
+app/controllers/courses_controller.rb:6:in `index'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:30:48 +0500
+  
+SyntaxError (/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:28: syntax error, unexpected local variable or method, expecting ')'
+... this course is for you. You'll find it particularly useful ...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `end'
+...re done with the course, you'll have plenty of hands-on prac...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+...ave plenty of hands-on practice, and will be able to confide...
+...                       ^~~~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+...te your full-stack applications in AdonisJs.",
+...                   ^~~~~~~~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:36: syntax error, unexpected '.', expecting `end'
+...stack applications in AdonisJs.",
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+        "image": "https://www.educative.io/...
+         ^~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+        "image": "https://www.educative.io/cdn-cgi/i...
+                  ^~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:37: unknown regexp options - www
+        "image": "https://www.educative.io/cdn-cgi/image/f...
+                         ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:37: syntax error, unexpected ',', expecting `end'
+...cative.io/cdn-cgi/image/f=auto,fit=cover,w=600/v2api/collect...
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:37: syntax error, unexpected string literal, expecting `end'
+...4624768/image/6402210052177920",
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+        "link": "https://www.educative.io/...
+         ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+        "link": "https://www.educative.io/courses/b...
+                 ^~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:38: unknown regexp options - www
+        "link": "https://www.educative.io/courses/buildin...
+                        ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:38: syntax error, unexpected string literal, expecting `do' or '{' or '('
+...tack-web-applications-adonisjs"
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:41: syntax error, unexpected local variable or method, expecting `end'
+        "name": "Using TypeScript with Rea...
+         ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:41: syntax error, unexpected constant, expecting `end'
+        "name": "Using TypeScript with React",
+                 ^~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:42: syntax error, unexpected local variable or method, expecting `end'
+        "writer": "Carl Rippon",
+         ^~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:42: syntax error, unexpected constant, expecting `end'
+        "writer": "Carl Rippon",
+                   ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:43: syntax error, unexpected local variable or method, expecting `end'
+        "course_type": true,
+         ^~~~~~~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `end'
+        "description": "If you are a React develo...
+         ^~~~~~~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected constant, expecting `end'
+        "description": "If you are a React developer an...
+                        ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+... and more robustly, this course is for you. Learn to integra...
+...                         ^~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting '.' or &. or :: or '['
+...his course is for you. Learn to integrate TypeScript with Re...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+...peScript with React, boost your productivity, and create app...
+...                           ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+...t, boost your productivity, and create apps that are easier ...
+...                            ^~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+...ntain. In this course, you will learn how to utilize TypeScr...
+...                           ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+...ate component props, state, and events that are strongly-typ...
+...                            ^~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+...re strongly-typed, allowing you to quickly understand what y...
+...                            ^~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+...void mistakes. Lastly, you will set up React projects with T...
+...                           ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+...ith TypeScript. First, you will learn how to do this with th...
+...                           ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected `then'
+...the Create React App tool, then how to create a React and Ty...
+...                           ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:44: syntax error, unexpected string literal
+...roject with Webpack and Babel.",
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+        "image": "https://www.educative.io/...
+         ^~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+        "image": "https://www.educative.io/cdn-cgi/i...
+                  ^~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:45: unknown regexp options - www
+        "image": "https://www.educative.io/cdn-cgi/image/f...
+                         ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:45: syntax error, unexpected ',', expecting `end'
+...cative.io/cdn-cgi/image/f=auto,fit=cover,w=600/v2api/collect...
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:45: syntax error, unexpected string literal, expecting `end'
+...0287744/image/6150106001702912",
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+        "link": "https://www.educative.io/...
+         ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+        "link": "https://www.educative.io/courses/u...
+                 ^~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:46: unknown regexp options - www
+        "link": "https://www.educative.io/courses/using-t...
+                        ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:46: syntax error, unexpected string literal, expecting `do' or '{' or '('
+...es/using-typescript-with-react"
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:49: syntax error, unexpected local variable or method, expecting `end'
+        "name": "Web Application and Softw...
+         ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:49: syntax error, unexpected constant, expecting `end'
+        "name": "Web Application and Software Arc...
+                 ^~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:49: syntax error, unexpected string literal, expecting `end'
+... and Software Architecture 101",
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:50: syntax error, unexpected local variable or method, expecting `end'
+        "writer": "Shivang Sarawagi",
+         ^~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:50: syntax error, unexpected constant, expecting `end'
+        "writer": "Shivang Sarawagi",
+                   ^~~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:51: syntax error, unexpected local variable or method, expecting `end'
+        "course_type": false,
+         ^~~~~~~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+        "description": "This course is a 101 on w...
+         ^~~~~~~~~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected constant, expecting `end'
+        "description": "This course is a 101 on web appli...
+                        ^~~~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+...tion": "This course is a 101 on web application and software...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected `in', expecting `end'
+...onents and concepts involved in designing the architecture o...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+...uch more. In this course, we'll also go through the techniqu...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+...tack to implement our use case. I'll walk you through differ...
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+    ')
+     ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/courses_controller.rb:28: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:36: syntax error, unexpected '.', expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:37: unknown regexp options - www
+app/controllers/courses_controller.rb:37: syntax error, unexpected ',', expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:38: unknown regexp options - www
+app/controllers/courses_controller.rb:38: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:41: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:41: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:42: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:42: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:43: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting '.' or &. or :: or '['
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `then'
+app/controllers/courses_controller.rb:44: syntax error, unexpected string literal
+app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:45: unknown regexp options - www
+app/controllers/courses_controller.rb:45: syntax error, unexpected ',', expecting `end'
+app/controllers/courses_controller.rb:45: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:46: unknown regexp options - www
+app/controllers/courses_controller.rb:46: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:49: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:49: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:49: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:50: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:50: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:51: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected `in', expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:28: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:36: syntax error, unexpected '.', expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:37: unknown regexp options - www
+app/controllers/courses_controller.rb:37: syntax error, unexpected ',', expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:38: unknown regexp options - www
+app/controllers/courses_controller.rb:38: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:41: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:41: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:42: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:42: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:43: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting '.' or &. or :: or '['
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `then'
+app/controllers/courses_controller.rb:44: syntax error, unexpected string literal
+app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:45: unknown regexp options - www
+app/controllers/courses_controller.rb:45: syntax error, unexpected ',', expecting `end'
+app/controllers/courses_controller.rb:45: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:46: unknown regexp options - www
+app/controllers/courses_controller.rb:46: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:49: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:49: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:49: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:50: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:50: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:51: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected `in', expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:28: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:36: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:36: syntax error, unexpected '.', expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:37: unknown regexp options - www
+app/controllers/courses_controller.rb:37: syntax error, unexpected ',', expecting `end'
+app/controllers/courses_controller.rb:37: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:38: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:38: unknown regexp options - www
+app/controllers/courses_controller.rb:38: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:41: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:41: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:42: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:42: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:43: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting '.' or &. or :: or '['
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `and'
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected local variable or method, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:44: syntax error, unexpected `then'
+app/controllers/courses_controller.rb:44: syntax error, unexpected string literal
+app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:45: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:45: unknown regexp options - www
+app/controllers/courses_controller.rb:45: syntax error, unexpected ',', expecting `end'
+app/controllers/courses_controller.rb:45: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:46: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:46: unknown regexp options - www
+app/controllers/courses_controller.rb:46: syntax error, unexpected string literal, expecting `do' or '{' or '('
+app/controllers/courses_controller.rb:49: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:49: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:49: syntax error, unexpected string literal, expecting `end'
+app/controllers/courses_controller.rb:50: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:50: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:51: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected constant, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected `in', expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+Started PUT "/__web_console/repl_sessions/61350c94a37a04e42a61ceecc7100c2d" for ::1 at 2022-03-02 12:31:04 +0500
+Started PUT "/__web_console/repl_sessions/61350c94a37a04e42a61ceecc7100c2d" for ::1 at 2022-03-02 12:31:05 +0500
+Started PUT "/__web_console/repl_sessions/61350c94a37a04e42a61ceecc7100c2d" for ::1 at 2022-03-02 12:31:07 +0500
+Started PUT "/__web_console/repl_sessions/61350c94a37a04e42a61ceecc7100c2d" for ::1 at 2022-03-02 12:31:14 +0500
+Started PUT "/__web_console/repl_sessions/61350c94a37a04e42a61ceecc7100c2d" for ::1 at 2022-03-02 12:31:19 +0500
+Started PUT "/__web_console/repl_sessions/61350c94a37a04e42a61ceecc7100c2d" for ::1 at 2022-03-02 12:31:21 +0500
+Started PUT "/__web_console/repl_sessions/61350c94a37a04e42a61ceecc7100c2d" for ::1 at 2022-03-02 12:31:26 +0500
+Started GET "/courses/index" for ::1 at 2022-03-02 12:32:36 +0500
+  
+SyntaxError (/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+...uch more. In this course, we'll also go through the techniqu...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+...tack to implement our use case. I'll walk you through differ...
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+    ')
+     ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:32:36 +0500
+  
+SyntaxError (/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+...uch more. In this course, we'll also go through the techniqu...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+...tack to implement our use case. I'll walk you through differ...
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+    ')
+     ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:32:39 +0500
+  
+SyntaxError (/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+...uch more. In this course, we'll also go through the techniqu...
+...                             ^~
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+...tack to implement our use case. I'll walk you through differ...
+...                              ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+    ')
+     ^
+/Users/Jawad/Desktop/elearning/app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'):
+  
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+app/controllers/courses_controller.rb:52: syntax error, unexpected local variable or method, expecting ')'
+app/controllers/courses_controller.rb:52: syntax error, unexpected '.', expecting `when'
+app/controllers/courses_controller.rb:90: syntax error, unexpected ')', expecting `end'
+app/controllers/courses_controller.rb:104: syntax error, unexpected end-of-input, expecting `end'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:33:42 +0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 0ms (Allocations: 362)
+
+
+  
+JSON::ParserError (783: unexpected token at ''):
+  
+app/controllers/courses_controller.rb:7:in `index'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:34:05 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 2.8ms | Allocations: 2304)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2378)
+Completed 500 Internal Server Error in 5ms (Allocations: 3165)
+
+
+  
+ActionView::Template::Error (undefined method `image' for #<Hash:0x00007fdb4e044b48>):
+    4:         <div class="row g-0">
+    5:             <div class="col-lg-4">
+    6: 
+    7:                 <img src="<%= c.image %>" class=" mt-2 text-center img-fluid rounded-start" alt="...">
+    8:             </div>
+    9:             <div class="col-lg-8">
+   10:             <div class="card-body">
+  
+app/views/courses/index.html.erb:7
+app/views/courses/index.html.erb:1:in `each'
+app/views/courses/index.html.erb:1
+Started GET "/courses/index" for ::1 at 2022-03-02 12:34:58 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 4253)
+  Rendered layout layouts/application.html.erb (Duration: 5.9ms | Allocations: 4327)
+Completed 500 Internal Server Error in 8ms (Allocations: 5161)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `image' for #<ActionView::Base:0x0000000000d2f0>
+Did you mean?  image_tag):
+    4:         <div class="row g-0">
+    5:             <div class="col-lg-4">
+    6: 
+    7:                 <img src="<%= c[image] %>" class=" mt-2 text-center img-fluid rounded-start" alt="...">
+    8:             </div>
+    9:             <div class="col-lg-8">
+   10:             <div class="card-body">
+  
+app/views/courses/index.html.erb:7
+app/views/courses/index.html.erb:1:in `each'
+app/views/courses/index.html.erb:1
+Started GET "/courses/index" for ::1 at 2022-03-02 12:45:33 +0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 0ms (Allocations: 354)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - ../../config/courses.json):
+  
+app/controllers/courses_controller.rb:7:in `read'
+app/controllers/courses_controller.rb:7:in `index'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:45:35 +0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 0ms (Allocations: 380)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - ../../config/courses.json):
+  
+app/controllers/courses_controller.rb:7:in `read'
+app/controllers/courses_controller.rb:7:in `index'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:45:45 +0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 0ms (Allocations: 387)
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - ../config/courses.json):
+  
+app/controllers/courses_controller.rb:7:in `read'
+app/controllers/courses_controller.rb:7:in `index'
+Started GET "/courses/index" for ::1 at 2022-03-02 12:45:52 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4001)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 4075)
+Completed 500 Internal Server Error in 7ms (Allocations: 4781)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `image' for #<ActionView::Base:0x000000000109a0>
+Did you mean?  image_tag):
+    4:         <div class="row g-0">
+    5:             <div class="col-lg-4">
+    6: 
+    7:                 <img src="<%= c[image] %>" class=" mt-2 text-center img-fluid rounded-start" alt="...">
+    8:             </div>
+    9:             <div class="col-lg-8">
+   10:             <div class="card-body">
+  
+app/views/courses/index.html.erb:7
+app/views/courses/index.html.erb:1:in `each'
+app/views/courses/index.html.erb:1
+Started GET "/courses/index" for ::1 at 2022-03-02 12:47:19 +0500
+Processing by CoursesController#index as HTML
+Completed 500 Internal Server Error in 4ms (Allocations: 1725)
+
+
+  
+NoMethodError (undefined method `with_indifferent_access' for #<Array:0x00007fdb4e26c498>):
+  
+app/controllers/courses_controller.rb:8:in `index'
+Started GET "/courses/index" for ::1 at 2022-03-02 13:33:23 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 1.0ms | Allocations: 1156)
+  Rendered layout layouts/application.html.erb (Duration: 1.2ms | Allocations: 1230)
+Completed 500 Internal Server Error in 3ms (Allocations: 2058)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Hash into String):
+    1: <% @courses.each do |cc| %>
+    2:     <% c = JSON.parse(cc)  %>
+    3:     <div class="container-fluid mt-5">
+    4:         <div class="card mb-3" style="max-width: 1500px;">
+    5:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:2
+app/views/courses/index.html.erb:1:in `each'
+app/views/courses/index.html.erb:1
+Started GET "/courses/index" for ::1 at 2022-03-02 13:33:24 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.5ms | Allocations: 913)
+  Rendered layout layouts/application.html.erb (Duration: 0.7ms | Allocations: 987)
+Completed 500 Internal Server Error in 1ms (Allocations: 1189)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Hash into String):
+    1: <% @courses.each do |cc| %>
+    2:     <% c = JSON.parse(cc)  %>
+    3:     <div class="container-fluid mt-5">
+    4:         <div class="card mb-3" style="max-width: 1500px;">
+    5:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:2
+app/views/courses/index.html.erb:1:in `each'
+app/views/courses/index.html.erb:1
+Started GET "/courses/index" for ::1 at 2022-03-02 13:37:49 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1197)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1271)
+Completed 500 Internal Server Error in 3ms (Allocations: 2093)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Hash into String):
+    1: <% require 'json' %>
+    2: <% @courses.each do |cc| %>
+    3:     <% c = JSON.parse(cc)  %>
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+    6:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:3
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:37:51 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 914)
+  Rendered layout layouts/application.html.erb (Duration: 0.8ms | Allocations: 988)
+Completed 500 Internal Server Error in 1ms (Allocations: 1190)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Hash into String):
+    1: <% require 'json' %>
+    2: <% @courses.each do |cc| %>
+    3:     <% c = JSON.parse(cc)  %>
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+    6:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:3
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:38:41 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1208)
+  Rendered layout layouts/application.html.erb (Duration: 1.6ms | Allocations: 1282)
+Completed 500 Internal Server Error in 4ms (Allocations: 2104)
+
+
+  
+ActionView::Template::Error (783: unexpected token at '{:name=>"Django: Python Web Development Unleashed", :writer=>"Educative", :course_type=>true, :description=>"Django is a course_type and open-source web application framework written in Python. It is used for rapid web development and clean, pragmatic design. It is built by experienced developers to make repetitive tasks easier, so you can focus on writing apps instead of reinventing the wheel. This course teaches Django for beginning and intermediate level learners. The course includes a hands-on learning experience with the help of interactive widgets. At the end of the course, you will have created a project in Django that can be used in your portfolio.", :image=>"https://www.educative.io/cdn-cgi/image/f=auto,fit=cover,w=600/v2api/collection/10370001/5026411048861696/image/4604108341248000", :link=>"https://www.educative.io/courses/django-python-web-development"}'):
+    1: <% require 'json' %>
+    2: <% @courses.each do |cc| %>
+    3:     <% c = JSON.parse(cc.to_s)  %>
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+    6:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:3
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:39:52 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 3.5ms | Allocations: 1189)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 1263)
+Completed 500 Internal Server Error in 6ms (Allocations: 2085)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Hash into String):
+    1: <% require 'json' %>
+    2: <% @courses.each do |cc| %>
+    3:     <% c = JSON.parse("'"+cc+"'")  %>
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+    6:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:3:in `+'
+app/views/courses/index.html.erb:3
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:41:26 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 5.5ms | Allocations: 4268)
+  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 4342)
+Completed 500 Internal Server Error in 7ms (Allocations: 5164)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `image' for #<ActionView::Base:0x00000000013f88>
+Did you mean?  image_tag):
+     5:         <div class="row g-0">
+     6:             <div class="col-lg-4">
+     7: 
+     8:                 <img src="<%= c[image] %>" class=" mt-2 text-center img-fluid rounded-start" alt="...">
+     9:             </div>
+    10:             <div class="col-lg-8">
+    11:             <div class="card-body">
+  
+app/views/courses/index.html.erb:8
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:43:34 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 1.2ms | Allocations: 1208)
+  Rendered layout layouts/application.html.erb (Duration: 1.4ms | Allocations: 1282)
+Completed 500 Internal Server Error in 3ms (Allocations: 2104)
+
+
+  
+ActionView::Template::Error (783: unexpected token at '{:name=>"Django: Python Web Development Unleashed", :writer=>"Educative", :course_type=>true, :description=>"Django is a course_type and open-source web application framework written in Python. It is used for rapid web development and clean, pragmatic design. It is built by experienced developers to make repetitive tasks easier, so you can focus on writing apps instead of reinventing the wheel. This course teaches Django for beginning and intermediate level learners. The course includes a hands-on learning experience with the help of interactive widgets. At the end of the course, you will have created a project in Django that can be used in your portfolio.", :image=>"https://www.educative.io/cdn-cgi/image/f=auto,fit=cover,w=600/v2api/collection/10370001/5026411048861696/image/4604108341248000", :link=>"https://www.educative.io/courses/django-python-web-development"}'):
+    1: <% require 'json' %>
+    2: <% @courses.each do |cc| %>
+    3:     <% c = JSON.parse(cc.to_s)  %>
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+    6:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:3
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:43:57 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 1.3ms | Allocations: 1197)
+  Rendered layout layouts/application.html.erb (Duration: 1.5ms | Allocations: 1271)
+Completed 500 Internal Server Error in 4ms (Allocations: 2093)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Hash into String):
+    1: <% require 'json' %>
+    2: <% @courses.each do |cc| %>
+    3:     <% c = JSON.parse(cc)  %>
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+    6:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:3
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:50:11 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 1199)
+  Rendered layout layouts/application.html.erb (Duration: 1.3ms | Allocations: 1273)
+Completed 500 Internal Server Error in 3ms (Allocations: 2095)
+
+
+  
+ActionView::Template::Error (no implicit conversion of Hash into String):
+    1: <% require 'json' %>
+    2: <% @courses.each do |cc| %>
+    3:     <% c = JSON.parse(cc)  %>
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+    6:         <div class="row g-0">
+  
+app/views/courses/index.html.erb:3
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:50:21 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 4.9ms | Allocations: 4008)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 4082)
+Completed 500 Internal Server Error in 7ms (Allocations: 4904)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `name' for #<ActionView::Base:0x00000000014c08>):
+    10:             </div>
+    11:             <div class="col-lg-8">
+    12:             <div class="card-body">
+    13:                 <h5 class="card-title"><td><%= link_to c[name], c[link], target: :_blank  %></td></h5>
+    14:                 <p class="card-text"><%= c.writer %></p>
+    15:                 <p class="card-text col-lg-10 fs-5"><%= c.description %></p>
+    16:                 <p class="card-text"><small class="text-muted fs-6"><%= c[course_type] ? "Free" : "Paid" %></small></p>
+  
+app/views/courses/index.html.erb:13
+app/views/courses/index.html.erb:2:in `each'
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:51:03 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 1.1ms | Allocations: 622)
+  Rendered layout layouts/application.html.erb (Duration: 1173.1ms | Allocations: 77473)
+Completed 200 OK in 1175ms (Views: 1174.8ms | Allocations: 78321)
+
+
+Started GET "/courses/index" for ::1 at 2022-03-02 13:51:06 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 99)
+  Rendered layout layouts/application.html.erb (Duration: 5.5ms | Allocations: 2390)
+Completed 200 OK in 6ms (Views: 6.3ms | Allocations: 2617)
+
+
+Started GET "/courses/index" for ::1 at 2022-03-02 13:51:45 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 2.1ms | Allocations: 2170)
+  Rendered layout layouts/application.html.erb (Duration: 2.4ms | Allocations: 2244)
+Completed 500 Internal Server Error in 3ms (Allocations: 2822)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<String:0x00007fdb4958b138>):
+    1: <% require 'json' %>
+    2: <% @courses.each do |c| %>
+    3: 
+    4:     <div class="container-fluid mt-5">
+    5:         <div class="card mb-3" style="max-width: 1500px;">
+  
+app/views/courses/index.html.erb:2
+Started GET "/courses/index" for ::1 at 2022-03-02 13:52:09 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2548)
+Completed 200 OK in 5ms (Views: 4.9ms | Allocations: 3279)
+
+
+Started GET "/courses/index" for ::1 at 2022-03-02 13:53:12 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.6ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 5.4ms | Allocations: 2523)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 3254)
+
+
+Started GET "/" for ::1 at 2022-03-02 13:53:16 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2525)
+Completed 200 OK in 4ms (Views: 4.1ms | Allocations: 2876)
+
+
+Started GET "/" for ::1 at 2022-03-02 15:17:54 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.8ms | Allocations: 539)
+  Rendered layout layouts/application.html.erb (Duration: 5.0ms | Allocations: 3093)
+Completed 200 OK in 7ms (Views: 6.3ms | Allocations: 4072)
+
+
+Started GET "/search?q=django" for ::1 at 2022-03-02 15:17:59 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"django"}
+Completed 500 Internal Server Error in 2ms (Allocations: 1562)
+
+
+  
+NoMethodError (private method `select' called for #<String:0x00007fdb494ab970>):
+  
+app/controllers/courses_controller.rb:22:in `search'
+Started GET "/search?q=django" for ::1 at 2022-03-02 15:18:45 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"django"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.7ms | Allocations: 214)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2536)
+Completed 200 OK in 6ms (Views: 5.0ms | Allocations: 3353)
+
+
+Started GET "/search?q=django" for ::1 at 2022-03-02 15:18:47 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"django"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2367)
+Completed 200 OK in 5ms (Views: 4.4ms | Allocations: 2750)
+
+
+Started GET "/" for ::1 at 2022-03-02 15:18:52 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.4ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2520)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 2871)
+
+
+Started GET "/search?q=Django%3A+Python+Web+Development+Unleashed" for ::1 at 2022-03-02 15:18:56 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Django: Python Web Development Unleashed"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.1ms | Allocations: 12)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 3.8ms | Allocations: 2381)
+Completed 200 OK in 5ms (Views: 4.3ms | Allocations: 2763)
+
+
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 15:19:05 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.2ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2379)
+Completed 200 OK in 4ms (Views: 4.0ms | Allocations: 2761)
+
+
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 15:30:34 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1760)
+
+
+  
+NoMethodError (undefined method `where' for #<Array:0x00007fdb494f3950>
+Did you mean?  when):
+  
+app/controllers/courses_controller.rb:25:in `search'
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 15:32:15 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 4ms (Allocations: 1684)
+
+
+  
+NoMethodError (undefined method `where' for #<String:0x00007fdb4a7adde8>
+Did you mean?  when):
+  
+app/controllers/courses_controller.rb:25:in `search'
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 15:32:46 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1576)
+
+
+  
+NoMethodError (undefined method `where' for #<String:0x00007fdb495b25f8>
+Did you mean?  when):
+  
+app/controllers/courses_controller.rb:25:in `search'
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 15:32:47 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1600)
+
+
+  
+NoMethodError (undefined method `where' for #<String:0x00007fdb4e1b58b0>
+Did you mean?  when):
+  
+app/controllers/courses_controller.rb:25:in `search'
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 15:45:44 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 3ms (Allocations: 1884)
+
+
+  
+NoMethodError (undefined method `where' for #<Array:0x00007fdb49186560>
+Did you mean?  when):
+  
+app/controllers/courses_controller.rb:26:in `search'
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 15:46:06 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 15:46:07 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 15:46:20 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 15:46:22 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 15:46:26 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 15:46:32 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 15:47:12 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:11:46 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:11:51 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:12:01 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:12:24 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:12:35 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:12:52 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:13:05 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:13:24 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:13:30 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:17:32 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:17:50 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:17:52 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:17:54 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:17:55 +0500
+Started PUT "/__web_console/repl_sessions/20385940f66cb62e3ae30ec3d5708527" for ::1 at 2022-03-02 16:17:59 +0500
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 16:53:33 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 3ms (Allocations: 2890)
+
+
+  
+NameError (undefined local variable or method `arr' for #<CoursesController:0x00000000020d28>
+Did you mean?  @array):
+  
+app/controllers/courses_controller.rb:26:in `block in search'
+app/controllers/courses_controller.rb:26:in `each'
+app/controllers/courses_controller.rb:26:in `search'
+Started PUT "/__web_console/repl_sessions/2a24d83d76b6c161b194d164cb30b20c" for ::1 at 2022-03-02 16:53:57 +0500
+Started PUT "/__web_console/repl_sessions/2a24d83d76b6c161b194d164cb30b20c" for ::1 at 2022-03-02 16:53:58 +0500
+Started PUT "/__web_console/repl_sessions/2a24d83d76b6c161b194d164cb30b20c" for ::1 at 2022-03-02 16:54:13 +0500
+Started PUT "/__web_console/repl_sessions/2a24d83d76b6c161b194d164cb30b20c" for ::1 at 2022-03-02 16:54:14 +0500
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 16:54:33 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 2ms (Allocations: 1698)
+
+
+  
+NoMethodError (undefined method `includes' for "Django: Python Web Development Unleashed":String
+Did you mean?  include?):
+  
+app/controllers/courses_controller.rb:27:in `block in search'
+app/controllers/courses_controller.rb:26:in `each'
+app/controllers/courses_controller.rb:26:in `search'
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 16:54:52 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 2ms (Allocations: 1728)
+
+
+  
+NoMethodError (undefined method `include' for "Django: Python Web Development Unleashed":String
+Did you mean?  include?):
+  
+app/controllers/courses_controller.rb:27:in `block in search'
+app/controllers/courses_controller.rb:26:in `each'
+app/controllers/courses_controller.rb:26:in `search'
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 16:54:53 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+Completed 500 Internal Server Error in 2ms (Allocations: 1721)
+
+
+  
+NoMethodError (undefined method `include' for "Django: Python Web Development Unleashed":String
+Did you mean?  include?):
+  
+app/controllers/courses_controller.rb:27:in `block in search'
+app/controllers/courses_controller.rb:26:in `each'
+app/controllers/courses_controller.rb:26:in `search'
+Started GET "/search?q=Advanced+React+Patterns+With+Hooks" for ::1 at 2022-03-02 16:55:06 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"Advanced React Patterns With Hooks"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.5ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 4.5ms | Allocations: 2411)
+Completed 200 OK in 6ms (Views: 5.7ms | Allocations: 3158)
+
+
+Started GET "/" for ::1 at 2022-03-02 16:57:32 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 247)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2533)
+Completed 200 OK in 5ms (Views: 4.8ms | Allocations: 3265)
+
+
+Started GET "/search?q=a" for ::1 at 2022-03-02 16:57:35 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"a"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.4ms | Allocations: 242)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.6ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2615)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 3111)
+
+
+Started GET "/search?q=django" for ::1 at 2022-03-02 16:57:42 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"django"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2377)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2742)
+
+
+Started GET "/" for ::1 at 2022-03-02 16:57:48 +0500
+Processing by CoursesController#index as HTML
+  Rendering layout layouts/application.html.erb
+  Rendering courses/index.html.erb within layouts/application
+  Rendered courses/index.html.erb within layouts/application (Duration: 0.3ms | Allocations: 246)
+  Rendered layout layouts/application.html.erb (Duration: 3.0ms | Allocations: 2535)
+Completed 200 OK in 4ms (Views: 3.6ms | Allocations: 2889)
+
+
+Started GET "/search?q=and" for ::1 at 2022-03-02 16:57:56 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"and"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.2ms | Allocations: 219)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.5ms | Allocations: 311)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2578)
+Completed 200 OK in 5ms (Views: 3.9ms | Allocations: 3060)
+
+
+Started GET "/search?q=and" for ::1 at 2022-03-02 16:58:26 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"and"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.3ms | Allocations: 219)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.6ms | Allocations: 311)
+  Rendered layout layouts/application.html.erb (Duration: 4.2ms | Allocations: 2582)
+Completed 200 OK in 6ms (Views: 4.7ms | Allocations: 3063)
+
+
+Started GET "/search?q=course_type" for ::1 at 2022-03-02 16:58:52 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"course_type"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 3.7ms | Allocations: 2399)
+Completed 200 OK in 5ms (Views: 4.2ms | Allocations: 2776)
+
+
+Started GET "/search?q=open" for ::1 at 2022-03-02 16:59:00 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"open"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.1ms | Allocations: 58)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 150)
+  Rendered layout layouts/application.html.erb (Duration: 3.4ms | Allocations: 2423)
+Completed 200 OK in 4ms (Views: 3.8ms | Allocations: 2813)
+
+
+Started GET "/search?q=django" for ::1 at 2022-03-02 16:59:07 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"django"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.0ms | Allocations: 12)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.2ms | Allocations: 104)
+  Rendered layout layouts/application.html.erb (Duration: 3.3ms | Allocations: 2373)
+Completed 200 OK in 4ms (Views: 3.7ms | Allocations: 2738)
+
+
+Started GET "/search?q=django" for ::1 at 2022-03-02 16:59:25 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"django"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.1ms | Allocations: 37)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 129)
+  Rendered layout layouts/application.html.erb (Duration: 3.9ms | Allocations: 2401)
+Completed 200 OK in 7ms (Views: 5.2ms | Allocations: 3215)
+
+
+Started GET "/search?q=python" for ::1 at 2022-03-02 16:59:31 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"python"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.1ms | Allocations: 36)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.3ms | Allocations: 128)
+  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2424)
+Completed 200 OK in 4ms (Views: 3.5ms | Allocations: 2858)
+
+
+Started GET "/search?q=" for ::1 at 2022-03-02 16:59:34 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.3ms | Allocations: 242)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.5ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 3.2ms | Allocations: 2607)
+Completed 200 OK in 5ms (Views: 3.6ms | Allocations: 3121)
+
+
+Started GET "/search?q=web" for ::1 at 2022-03-02 16:59:42 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>"web"}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.3ms | Allocations: 151)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.7ms | Allocations: 243)
+  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2510)
+Completed 200 OK in 5ms (Views: 4.1ms | Allocations: 2992)
+
+
+Started GET "/search?q=" for ::1 at 2022-03-02 16:59:56 +0500
+Processing by CoursesController#search as HTML
+  Parameters: {"q"=>""}
+  Rendering layout layouts/application.html.erb
+  Rendering courses/search.html.erb within layouts/application
+  Rendering courses/index.html.erb
+  Rendered courses/index.html.erb (Duration: 0.3ms | Allocations: 242)
+  Rendered courses/search.html.erb within layouts/application (Duration: 0.5ms | Allocations: 334)
+  Rendered layout layouts/application.html.erb (Duration: 4.0ms | Allocations: 2601)
+Completed 200 OK in 5ms (Views: 4.5ms | Allocations: 3115)
+
+
